@@ -1,0 +1,16 @@
+.flex-container{
+  display: flex;
+  width: 450px;
+  height: 450px;
+  background-color: green;
+  flex-direction: column; <!-- hur innehållet kommer att ordnas-->
+  justify-content: flex-end;
+  }
+
+.flex-item{
+  background-color: cornflowerblue;
+  border-style: double; <!-- hur ser border ut-->
+  width: 100px;
+  height: 100px;
+
+  }

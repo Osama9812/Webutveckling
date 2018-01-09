@@ -1,0 +1,36 @@
+h1{
+  font-family: 'Tangerine', serif;
+  font-size: 48px;
+  font-style: italic;
+  }
+.flex-container{
+  display: flex;
+}
+
+.flex-container1 {
+font-family: 'Merriweather Sans', sans-serif;
+font-weight: 700;
+display: flex;
+justify-content: center;
+align-items: center;
+width: 600px;
+height: 600px;
+background-color: green;
+flex-direction: row;
+margin-right:auto;
+}
+
+.flex-container2 {
+font-family: 'Tangerine', serif;
+font-size: 48px;
+font-style: italic;
+text-shadow: 4px 4px 4px #aaa;
+
+display: flex;
+justify-content: center;
+width: 600px;
+height: 600px;
+background-color: black;
+flex-direction: column;
+margin-left:auto;
+}

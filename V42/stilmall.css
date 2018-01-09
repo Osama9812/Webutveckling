@@ -1,0 +1,58 @@
+.flex-container {
+display: flex;
+background-color: green;
+border-style:solid;
+width: 600px;
+height: 600px;
+flex-direction: column;
+flex-wrap:wrap;
+justify-content: space-around;
+}
+
+.rad{
+  background-color: red;
+  border-style:solid;
+  /*vidd o höjd
+  följer innehållet*/
+  height: 50px;
+  width: 50px;
+}
+
+.rad1 {
+  background-color: red;
+  border-style:ridge;
+  border-color: yellow;
+  flex-direction: row;
+  display: flex;
+  height: 150px;
+  width: 500px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.rad2 {
+  background-color: purple;
+  border-style:solid;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-around;
+
+}
+
+
+.item {
+
+  background-color: blue;
+  border-style:solid;
+  height: 50px;
+  width: 50px;
+}
+
+.item2{
+
+  background-color: white;
+  border-style: ridge;
+  height: 50px;
+  width: 50px;
+
+}

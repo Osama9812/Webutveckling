@@ -1,0 +1,65 @@
+.flex-container{
+  display: flex;
+  justify-content: center; <!-- var innehållet ligger-->
+  width: 600px;
+  height: 600px;
+  background-color: green;
+  flex-direction: column-reverse; <!-- var container placerade-->
+  }
+
+.flex-rad{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: yellow;
+  border-style: solid;
+     }
+
+.flex-item{
+    background-color: blue;
+    border-style: solid;
+    width: 50px;
+    height: 50px;
+    margin: 50px;
+       }
+
+.flex-item1{
+  background-color: blue;
+  border-style: solid;
+  width: 50px;
+  height: 50px;
+  margin: 50px;
+  }
+
+.flex-item2 {
+    background-color: black;
+    border-style: solid;
+    width: 50px;
+    height: 50px;
+    margin: 20px;
+    }
+
+.flex-item3{
+      background-color: red;
+      border-style: solid;
+      width: 50px;
+      height: 50px;
+      margin: 50px;
+      }
+
+h1 {
+  color: red;
+  font-style: italic;
+  font-size: 10px;
+}
+
+.gul {
+  color: yellow;
+  font-style: italic;
+ font-size: 10px;
+}
+.rod{
+  color: red;
+  font-style: /* IDEA:  */;
+  font-size: 10px;
+}

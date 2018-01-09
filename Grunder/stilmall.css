@@ -1,0 +1,22 @@
+h1 {
+/* egenskap=värde */
+  color: green;
+  font-style: italic;
+
+}
+
+/* vi kan skappa klsser som har
+specialla egenskaper användas när
+samma egenskaper ska tilldelas flera obejkt*/
+.gul{
+  color: yellow;
+}
+.normal{
+  font-style:normal;
+}
+/* id fungerar som klass men
+har också egenskapen att unikt identifiera
+ett element*/
+#stor{
+ font-size: 48px;
+ }

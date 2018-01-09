@@ -1,0 +1,49 @@
+.over{
+  background-color: yellow;
+  width: 200px;
+  height: 40px;
+  border-radius: 5px;
+  border-style: inset;
+  justify-content: center;
+  margin: auto;
+  }
+
+.under{
+  display: none;
+}
+
+.over:hover .under{
+  display: block;
+
+  background-color: red;
+  width: 100px;
+  height: 20px;
+  border-radius: 20px;
+  border-style: groove;
+}
+
+.flex-container{
+  display: flex;
+
+  }
+
+.flex-container1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  height: 600px;
+  background-color: green;
+  flex-direction: row;
+  margin-right:auto;
+}
+
+.flex-container2{
+  display: flex;
+  justify-content: center;
+  width: 600px;
+  height: 600px;
+  background-color: green;
+  flex-direction: column;
+  margin-left:auto;
+}
