@@ -1,84 +1,40 @@
-.flex-container1 {
-display: flex;
-background-color: green;
-border-style:solid;
-width: 600px;
-height: 600px;
-flex-direction:column;
-flex-wrap:wrap;
-margin:auto;
-justify-content: space-around;
-}
-
-
-.flex-container2 {
-display: flex;
-background-color: green;
-border-style:solid;
-width: 600px;
-height: 600px;
-flex-direction: column;
-flex-wrap:wrap;
-margin-left:auto;
-justify-content: space-around;
-}
-
-.flex-container3 {
-display: flex;
-background-color: grey;
-border-style:solid;
-width: 600px;
-height: 600px;
-flex-direction: column;
-margin-right:auto;
-flex-wrap:wrap;
-justify-content: space-around;
-}
-
-.rad{
-  background-color: red;
-  border-style:solid;
-  /*vidd o höjd
-  följer innehållet*/
-  height: 50px;
-  width: 50px;
-}
-
-.rad1 {
-  background-color: red;
-  border-style:ridge;
-  border-color: yellow;
-  flex-direction: row;
+.flex-rad{
   display: flex;
-  height: 150px;
-  width: 500px;
-  justify-content: space-around;
-  align-items: row;
+  justify-content: center;
+
+     }
+
+.over{
+  background-color: yellow;
+  width: 200px;
+  height: 40px;
+  border-radius: 5px;
+  border-style: solid;
+  justify-content: center;
+s
+  }
+
+.under{
+  display: none;
 }
 
-.rad2 {
-  background-color: purple;
-  border-style:solid;
-  flex-direction: row;
+.over:hover .under{
+  display: block;
+  background-color: red;
+  width: 100px;
+  height: 20px;
+  border-radius: 20px;
+  border-style: groove;
+}
+
+.flex-container{
   display: flex;
-  justify-content: space-around;
-
-}
-
-
-.item {
-
-  background-color: blue;
-  border-style:solid;
-  height: 50px;
-  width: 50px;
-}
-
-.item2{
-
-  background-color: white;
-  border-style: ridge;
-  height: 50px;
-  width: 50px;
-
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  height: 600px;
+  background-color: green;
+  flex-direction: row;
+  margin:auto;
+  flex-wrap: wrap;
 }
