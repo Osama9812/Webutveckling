@@ -1,8 +1,9 @@
 .flex-rad{
   display: flex;
   justify-content: center;
-
-     }
+  max-width:800px;
+  margin:auto;
+  }
 
 .over{
   background-color: yellow;
@@ -11,12 +12,11 @@
   border-radius: 5px;
   border-style: solid;
   justify-content: center;
-s
   }
 
 .under{
   display: none;
-}
+  }
 
 .over:hover .under{
   display: block;
@@ -31,10 +31,31 @@ s
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 600px;
-  height: 600px;
+  max-width:800px;
   background-color: green;
   flex-direction: row;
   margin:auto;
-  flex-wrap: wrap;
+
+}
+
+.left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width:75%;
+  background-color: green;
+  flex-direction: row;
+  margin-left:auto;
+
+}
+
+.right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  background-color: green;
+  flex-direction: row;
+  margin-right:auto;
+  border-style: dotted;
 }
